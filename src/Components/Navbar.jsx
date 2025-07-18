@@ -21,7 +21,7 @@ function Navbar() {
     <div  className='navbar'>
       <img src={logo} alt='logo' className='nav-logo' />
 
-      <img src={menu}  className='nav-mob-open' onClick={openMenu} />
+      <img src={menu}  className='nav-mob-open' onClick={openMenu}/>
 
       <nav ref={menuRef} className='nav-menu'>
         <img src={close} alt='close' className='nav-mob-close' onClick={closeMenu} />

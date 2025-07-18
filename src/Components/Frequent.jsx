@@ -47,8 +47,6 @@ function Frequent() {
                 </p>
               )}
             </div>
-
-            
             <div className="learn-more-section">
               <h3 className="more_1" onClick={() => setShowMore3(!showMore3)}>
                    Can I add my own custom AI tools to Abordi?
