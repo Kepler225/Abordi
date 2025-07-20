@@ -1,6 +1,6 @@
 import React from 'react'
 import hero from '../assets/hero.svg.webp'
-import apple_2 from '../assets/Apple_2.png'
+import temp from '../assets/temp.png'
 import plays from '../assets/plays.png'
 
 function Hero() {
@@ -14,7 +14,7 @@ function Hero() {
 
         <div className="store-buttons">
   <div className="store-button">
-    <img src={apple_2} />
+    <img src={temp} />
     <div className="text">
       <span className="small-text">Download on the</span>
       <span className="big-text">App Store</span>
